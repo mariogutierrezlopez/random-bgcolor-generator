@@ -1,0 +1,118 @@
+*{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #B2A257;
+}
+
+nav{
+    height: 10vh;
+    width: 100;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0px 0px 20px 0px #0007;
+}
+
+.nav-center{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 0 40px;
+
+}
+.nav-center h4{
+    color: rgb(152, 0, 0);
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.nav-center ul{
+    display: flex;
+    letter-spacing: 3px;
+    gap: 30px;
+}
+
+.nav-center ul li{
+    list-style: none;
+}
+
+.nav-center ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+}
+.nav-center ul li a:hover{
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+    font-size: 23px;
+}
+
+main{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: unset;
+    position: relative;
+}
+
+.container{
+    height: 50px;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+    padding: 25px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0px 0px 20px 0px #0007;
+}
+
+.container h2{
+    background-color: unset;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container button{
+    margin: auto;
+    background-color: white;
+    height: 50px;
+    width: 300px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0px 0px 20px 0px #fffa;
+    border: 0;
+}
+.container button:hover{
+    box-shadow: 0px 0px 20px 0px #ffff;
+}
+
+.container h2 span{
+    background-color: unset;
+}
+
+@media(max-width: 600px){
+    .nav-center{
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+}
