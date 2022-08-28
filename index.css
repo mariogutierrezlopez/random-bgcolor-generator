@@ -8,7 +8,9 @@ body{
     height: 100vh;
 }
 
-
+/*******************
+Navbar
+***************/
 nav{
     height: 10vh;
     width: 100%;
@@ -39,12 +41,17 @@ nav{
 .title:checked{
     color: black;
 }
-
+/*******************
+Main elements
+***************/
 main{
     box-sizing: border-box;
     padding-top: 100px;
     height: 90vh;
     width: 100%;
+    /**
+    *Animated background src: https://codepen.io/alvarotrigo/pen/dyzgOER
+    */
     background-size: 300% 300%;
   background-image: linear-gradient(
         -45deg, 
@@ -60,7 +67,11 @@ main{
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
   }
+/*End of the css animated background code*/
 
+/*******************
+Main elements -> Grid and cards inside body
+***************/
 .grid{
     height: 500px;
     margin: 0 auto;
@@ -126,6 +137,9 @@ main{
     color:rgb(59, 59, 59);
     letter-spacing: 1px;
 }
+/*******************
+Footer
+***************/
 footer{
     bottom: 0%;
     display: flex;
@@ -151,7 +165,9 @@ footer a{
     font-size: 30px;
     color: white;
 }
-
+/*******************
+Media queries
+***************/
 @media(max-width: 880px){
     .grid{
         width: 50%;
