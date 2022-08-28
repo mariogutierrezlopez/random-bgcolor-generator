@@ -83,13 +83,29 @@ main{
     box-shadow: 0px 0px 20px 0px #0007;
 }
 
-.container h2{
+.container-test{
+    height: 90px;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+    padding: 25px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0px 0px 20px 0px #0007;
+}
+
+.container h2, .container-test h2{
     background-color: unset;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    display: inline-block;
 }
-.container div{
+.container div, .container-test div{
     background-color: unset;
     display: flex;
     justify-content: center;
@@ -97,7 +113,7 @@ main{
     width: 100%;
     align-content: center;
 }
-.container button{
+.container button, .container-test button, .container-test a{
     margin: auto;
     margin-top: 10px;
     background-color: white;
@@ -120,10 +136,15 @@ main{
     box-sizing: border-box;
     padding: 5px;   
 }
+.container-test a{
+    text-decoration: none;
+}
 .container button:hover{
     box-shadow: 0px 0px 20px 0px #ffff;
 }
+.command-div{
 
+}
 .container h2 span{
     background-color: unset;
 }
@@ -158,6 +179,19 @@ footer a{
 footer i{
     background-color: unset;
 }
+
+#color-input{
+    height: 80%;
+    font-family: 'Courier New', Courier, monospace;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    box-sizing: border-box;
+    padding: 2px 5px;
+    color: black;
+    font-size: 20px;
+}
+
 
 @media(max-width: 600px){
     .nav-center{
