@@ -6,7 +6,7 @@ random colors using Hexadecimal, rgb function or color names in css.
 Made by [@mariogutierrezlopez](https://www.github.com/mariogutierrezlopez)
 ## Demo
 
-![explanation gif}(https://i.im.ge/2022/08/28/ONgbxP.Animation.gif)
+![explanation gif](https://i.im.ge/2022/08/28/ONgbxP.Animation.gif)
 
 
 ## Features
