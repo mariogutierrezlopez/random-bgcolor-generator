@@ -39,3 +39,8 @@ Go to the project directory
 Open it with [VS live sever](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) or your browser of choice
 **I recomend opening `index.html` wich is supposed to be the menu**
 
+## Resources I have used
+ - [Copy to clipboard](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)
+ - [Proyect idea and logic](https://youtu.be/3PHXvlpOkf4?t=421)
+ - [Json reading](https://dmitripavlutin.com/javascript-fetch-async-await/)
+ - [Animated background gradient](https://codepen.io/alvarotrigo/pen/dyzgOER)
