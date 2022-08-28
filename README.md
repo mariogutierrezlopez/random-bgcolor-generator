@@ -38,7 +38,4 @@ Go to the project directory
 ```
 Open it with [VS live sever](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) or your browser of choice
 **I recomend opening `index.html` wich is suppones to be the menu**
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
